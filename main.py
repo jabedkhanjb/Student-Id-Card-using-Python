@@ -9,7 +9,7 @@ student1.details()
 #                                mobile=input("Enter your mobile number : +88"))
 # student2.details()
 # student3 = Student_information(name=input("Enter your name : "), id=input("Enter your ID : "),
-#                                department=input("What's your department name?\n: "),
+#                                department=input("Enter your department name : "),
 #                                mobile=input("Enter your mobile number : +88"))
 # student3.details()
 
