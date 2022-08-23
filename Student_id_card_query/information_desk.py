@@ -7,15 +7,17 @@ class Student_information:
 
     def details(self):
         print("\n")
-        print("*********************************************************")
+        asterisk = ""
+        P_asterisk = asterisk.center(57, "*")
+        print(P_asterisk)
         print("*             The Millennium University                 *")
         print("*                   Student ID Card                     *")
-        print("*********************************************************")
+        print(P_asterisk)
         print("*     Student name : " + self.student_name,)
         print("*     Id : " + self.student_id)
         print("*     Department : " + self.student_department)
         print("*     Cell : " + self.student_mobile)
-        print("*********************************************************")
+        print(P_asterisk)
         print("\n")
 
 
